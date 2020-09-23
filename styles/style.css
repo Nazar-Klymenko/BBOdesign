@@ -10860,65 +10860,6 @@ a.text-dark:hover, a.text-dark:focus {
   width: 100%;
 }
 
-h1,
-h3,
-.black {
-  color: black;
-}
-
-.custom-text {
-  width: 50%;
-}
-
-.custom-container {
-  padding: 0 !important;
-}
-
-.custom-container .image {
-  width: 100%;
-  -webkit-filter: opacity(80%) contrast(80%);
-          filter: opacity(80%) contrast(80%);
-}
-
-.perks .header {
-  margin-top: 7rem;
-  margin-bottom: 7rem;
-}
-
-.icons-section {
-  background: #f9f9f9;
-}
-
-.icons-section .icon-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.icons-section img {
-  margin-bottom: 1rem;
-}
-
-.icons-section p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-}
-
 .form-container {
   margin-top: 20rem;
   margin-bottom: 7rem;
@@ -10973,6 +10914,71 @@ h3,
 
 @media (max-width: 768px) {
   .form-container {
+    width: 100%;
+  }
+}
+
+.icons-section {
+  background: #f9f9f9;
+}
+
+.icons-section .icon-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icons-section img {
+  margin-bottom: 1rem;
+}
+
+.icons-section p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+h1,
+h3,
+.black {
+  color: black;
+}
+
+.custom-text {
+  width: 50%;
+}
+
+.custom-container {
+  padding: 0 !important;
+}
+
+.custom-container .image {
+  width: 100%;
+  -webkit-filter: opacity(80%) contrast(80%);
+          filter: opacity(80%) contrast(80%);
+}
+
+.perks .header {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+@media (max-width: 768px) {
+  .custom-text {
     width: 100%;
   }
 }
