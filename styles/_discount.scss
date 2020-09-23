@@ -1,0 +1,44 @@
+$LightPink: #e7b7a0;
+.form-container {
+  margin-top: 20rem;
+  margin-bottom: 7rem;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  z-index: 1060;
+  img {
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    width: 80%;
+    overflow: hidden;
+    user-select: none;
+  }
+  .header {
+    position: relative;
+  }
+  form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  input {
+    width: 100%;
+    border: 2px solid #000000 !important;
+    &:focus {
+      outline: none;
+      border-radius: 0;
+    }
+  }
+  button {
+    background: $LightPink;
+    border-radius: 0;
+    font-weight: bold;
+  }
+}
+@media (max-width: 768px) {
+  .form-container {
+    width: 100%;
+  }
+}

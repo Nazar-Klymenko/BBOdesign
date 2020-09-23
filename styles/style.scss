@@ -1,0 +1,37 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../styles/tiles";
+@import "../styles/video";
+@import "../styles/discount";
+@import "../styles/icons";
+
+$black: #00071a;
+
+h1,
+h3,
+.black {
+  color: black;
+}
+
+.custom-text {
+  width: 50%;
+}
+.custom-container {
+  padding: 0 !important;
+  .image {
+    width: 100%;
+    filter: opacity(80%) contrast(80%);
+  }
+}
+
+.perks {
+  .header {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-text {
+    width: 100%;
+  }
+}

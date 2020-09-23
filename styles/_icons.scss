@@ -1,0 +1,20 @@
+
+$LightGray: #f9f9f9;
+.icons-section {
+  background: $LightGray;
+  .icon-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    margin-bottom: 1rem;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+

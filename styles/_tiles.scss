@@ -1,0 +1,29 @@
+$HeaderGray: #c4c4c4;
+$CityGray: #9b9b9b;
+$Black: #00071a;
+
+.custom-tile {
+  padding: 2rem;
+  &:hover .header {
+    color: $Black;
+  }
+  .header {
+    color: $HeaderGray;
+    font-size: 3rem;
+    font-weight: bold !important;
+    margin-bottom: 0;
+    transition: 0.15s ease-in-out;
+  }
+
+  .subheader {
+    font-weight: bold;
+    margin-bottom: 0;
+    color: $Black;
+  }
+  .city {
+    color: $CityGray;
+  }
+  .content {
+    color: $Black;
+  }
+}
